@@ -1,0 +1,20 @@
+{
+  "name": "push-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "update": "node push-github-cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenquan/push-cli.git"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "minimist": "^1.2.5"
+  }
+}
